@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="stylesheet" href="calculator.css">
+    <script type="module" src="calculator.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="solarcharge">
+                <p class="title"><b>calculator</b></p>
+                <div class="solarscreen">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+            </div>
+            <div class="screen"></div>
+        </div>
+        <div class="buttonpart">
+            <div class="btnrow">
+                <button class="btn">MC</button>
+                <button class="btn">MC</button>
+                <button class="btn">M-</button>
+                <button class="btn">M+</button>
+                <button class="btn">/</button> 
+            </div>
+            <div class="btnrow">
+                <button class="btn">Delete</button>
+                <button class="btn">7</button>
+                <button class="btn">8</button>
+                <button class="btn">9</button>
+                <button class="btn">*</button>
+            </div>
+            <div class="btnrow">
+                <button class="btn">%</button>
+                <button class="btn">4</button>
+                <button class="btn" onclick="set(5)">5</button>
+                <button class="btn">6</button>
+                <button class="btn">-</button>
+            </div>
+            <div class="btnrow2">
+                <div class="btnrow3">
+                <div class="btnrow">
+                    <button class="btn" id="redbutton">C</button>
+                    <button class="btn">1</button>
+                    <button class="btn">2</button>
+                    <button class="btn">3</button>
+                    </div>
+                    <div class="btnrow">
+                    <!-- <div class="nextbtn"> -->
+                    <button class="btn" id="redbutton">AC</button>
+                    <button class="btn">0</button>
+                    <button class="btn">.</button>
+                    <button class="btn">=</button>
+                    </div>
+                </div>
+                <button id="btnplus">+</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="calculator.js"></script>
+</body>
+</html>

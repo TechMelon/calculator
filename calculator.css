@@ -1,0 +1,94 @@
+.container{
+    background-color: rgb(202, 196, 196);
+    width: 450px;
+    height: 630px;
+    margin: 50px 100px 80px 500px; 
+    border-radius: 15px;
+    
+}
+.header{
+    background-color: black;
+    padding: 10px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.solarcharge{ 
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+.title{
+    color: white;
+    margin: 0;
+    font-size: 30px;
+}
+.solarscreen{
+    background-color: rgba(61, 60, 60, 0.692);
+    width: 100px;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+}
+.solarscreen div{
+    height: 30px;
+    width: 100px;
+    border: 0.5px solid white;
+    /* display: inline; */
+}
+.screen{
+    background-color: rgb(120, 139, 120);
+    padding: 30px;
+    margin: 7px;
+    border: 1px solid white;
+    border-radius: 10px;
+    text-align: end;
+}
+.buttonpart{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    align-items: center;
+}
+.btnrow{
+    padding: 6px;
+}
+.btnrow2{
+    display: flex;
+    flex-direction: row;
+    justify-content: baseline;
+}
+.btn{
+    width: 70px;
+    height: 70px;
+    background-color: rgb(63, 62, 62);
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0 7px #999;
+}
+.btnrow3{
+    display: flex;
+    flex-direction: column;
+}
+#btnplus{
+    width: 65px;
+    height: 150px;
+    margin-top: 8px;
+    margin-left: -1px;
+    background-color: rgb(63, 62, 62);
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0 7px #999;
+}
+#redbutton{
+    background-color: rgba(255, 0, 0, 0.411);
+}
+/* .nextbtn{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}   */
