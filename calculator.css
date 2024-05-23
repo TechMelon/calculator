@@ -1,7 +1,7 @@
 .container{
     background-color: rgb(202, 196, 196);
     width: 450px;
-    height: 630px;
+    height: 650px;
     margin: 50px 100px 80px 500px; 
     border-radius: 15px;
     
@@ -44,6 +44,7 @@
     border: 1px solid white;
     border-radius: 10px;
     text-align: end;
+    font-size: 40px;
 }
 .buttonpart{
     display: flex;
