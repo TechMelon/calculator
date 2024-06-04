@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>calculator</title>
-    <link rel="stylesheet" href="calculator.css">
-    <script type="module" src="calculator.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="script.js"></script>
 </head>
 <body>
     <div class="container">
@@ -30,14 +30,14 @@
                 <button class="btn" onclick="set('/')">/</button> 
             </div>
             <div class="btnrow">
-                <button class="btn">Delete</button>
+                <button class="btn" onclick="del()">Delete</button>
                 <button class="btn" onclick=set(7)>7</button>
                 <button class="btn" onclick="set(8)">8</button>
                 <button class="btn" onclick="set(9)">9</button>
                 <button class="btn" onclick="set('*')">*</button>
             </div>
             <div class="btnrow">
-                <button class="btn" onclick="set('/')">%</button>
+                <button class="btn" onclick="set('%')">%</button>
                 <button class="btn" onclick="set(4)">4</button>
                 <button class="btn" onclick="set(5)">5</button>
                 <button class="btn" onclick="set(6)">6</button>
@@ -46,17 +46,17 @@
             <div class="btnrow2">
                 <div class="btnrow3">
                 <div class="btnrow">
-                    <button class="btn" id="redbutton">C</button>
+                    <button class="btn" id="redbutton"  onclick="cls()">C</button>
                     <button class="btn" onclick="set(1)">1</button>
                     <button class="btn" onclick="set(2)">2</button>
                     <button class="btn" onclick="set(3)">3</button>
-                    </div>
+                    </div >
                     <div class="btnrow">
                     <!-- <div class="nextbtn"> -->
-                    <button class="btn" id="redbutton">AC</button>
+                    <button class="btn" onclick="cls()" id="redbutton" >AC</button>
                     <button class="btn" onclick="set(0)">0</button>
                     <button class="btn" onclick="set('.')">.</button>
-                    <button class="btn">=</button>
+                    <button class="btn" onclick="calculator()">=</button>
                     </div>
                 </div>
                 <button id="btnplus" onclick="set('+')">+</button>
@@ -65,6 +65,6 @@
             </div>
         </div>
     </div>
-    <script src="calculator.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
